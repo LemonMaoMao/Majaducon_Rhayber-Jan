@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../theweeknd/weeknd-desktop-v2.jpg');
+    color: black;
+    text-align: center;
+}
+
+header {
+    background: black;
+    padding: 15px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 80%;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.product img{
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(32, 4, 4, 0.5);
+}
+
+.product-info{
+    text-align: left;
+    max-width: 400px;
+}
+
+.button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:haver {
+    background: darkred;
+
+} 
+
+
